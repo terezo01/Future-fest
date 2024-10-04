@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    max-height: 100px;
+    width: 100%;
+}
+
+header nav{
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#big-img{
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    background-image: url(img/imagem.png);
+}
+
+#blur{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) , rgba(86, 86, 86, 0.5));
+}
+
+#home{
+    margin: 30px 160px;
+    color: white;
+}
