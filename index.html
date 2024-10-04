@@ -9,27 +9,64 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#links">Matérias</a>
+            <a href="#time">Time</a>
+        </nav>
+    </header>
     <div id="big-img">
         <div id="blur">
-            <header>
-                <nav>
-                    <a href="#home">Home</a>
-                    <a href="#materias">Matérias</a>
-                    <a href="#time">Time</a>
-                </nav>
-            </header>
             <section id="home">
-                <h1>Produtividade e Segurança</h1>
-                <h3></h3>
+                <div id="esquerdinha">
+                    <h1>Produtividade e Segurança</h1>
+                    <h3>
+                        Produtividade e segurança no trabalho são essenciais para o sucesso organizacional. 
+                        A produtividade envolve a realização eficiente de tarefas, enquanto a segurança 
+                        garante a proteção física e mental dos funcionários. Ambientes seguros aumentam a 
+                        confiança e o bem-estar, o que, por sua vez, melhora a motivação e a produtividade. 
+                        Integrar essas duas áreas resulta em operações mais sustentáveis, com menos custos e
+                         maior satisfação dos trabalhadores.
+                    </h3>
+                </div>
             </section>
         </div>
     </div>
-    <section id="materias">
-
+    <section id="links">
+        <h1 class="topico">Matérias</h1>
+        <div class="materias">
+            <a class="materia" href="link1-page.html">
+                <h1>Insegurança Financeira e Estresse</h1>
+                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+            </a>
+            <a class="materia" href="link2-page.html">
+                <h1>Produtividade e Baixos Salários</h1>
+                <h3></h3>
+            </a>
+        </div>
     </section>
     <section id="time">
 
     </section>
+
+    <footer></footer>
+  
+    <a href="#home" id="hide-up"><img src="img/images-removebg-preview (1).png" alt=""></a>
+
+    <script>
+        window.onscroll = function () {
+            const header = document.getElementById('header');
+            const up = document.getElementById('hide-up');
+            if (window.scrollY > 10) {
+                up.classList.add('up')
+                up.classList.remove('hide-up')
+            } else {
+                up.classList.add('hide-up');
+                up.classList.remove('up');
+            }
+        };
+    </script>
 </body>
 
 </html>
