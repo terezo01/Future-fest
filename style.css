@@ -3,9 +3,14 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+}
+
 header{
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
     max-height: 70px;
@@ -23,6 +28,8 @@ header nav{
 header nav a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-weight: lighter;
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
@@ -74,12 +81,19 @@ header nav a:active{
 }
 
 #links{
+    background-color: #CECECE;
+}
+
+#fru-fru{
     padding: 70px 160px 120px;
+    background-image: url(img/Group\ 2.png);
+    background-repeat: no-repeat;
+    background-position-y: -185px;
+    background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: #fff;
     color: rgb(56, 56, 56);
 }
 
@@ -129,15 +143,40 @@ header nav a:active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    gap: 50px;
     max-width: 100%;
     padding: 50px;
     background-color: #083040;
     color: white;
 }
 
-#time h1{
-    font-size: 50px;
+#title-time{
+    font-size: 48px;
+}
+
+#time-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 0 160px;
+}
+
+.time-lado{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    width: 430px;
+}
+
+.time-lado h1{
+    font-size: 36px;
+}
+
+.time-lado h3{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 .hide-up{
@@ -179,6 +218,7 @@ header nav a:active{
 
 .up:hover{
     background-color: rgba(0, 0, 0);
+    scale: 1.05;
 }
 
 @keyframes slideLeft {
