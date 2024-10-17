@@ -13,12 +13,12 @@ header{
     z-index: 1;
     left: 0;
     top: 0;
-    max-height: 70px;
+    max-height: 100px;
     width: 100%;
 }
 
 header nav{
-    height: 70px;
+    height: 100px;
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -43,7 +43,7 @@ header nav a:active{
 }
 
 #big-img{
-    height: 650px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -100px;
@@ -58,9 +58,10 @@ header nav a:active{
 
 #home{
     max-height: 650px;
-    padding: 120px 160px 40px ;
+    padding: 140px 160px 50px ;
     color: white;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -85,11 +86,12 @@ header nav a:active{
 }
 
 #fru-fru{
-    padding: 70px 160px 120px;
+    padding: 140px 160px 120px;
     background-image: url(img/Group\ 2.png);
     background-repeat: no-repeat;
-    background-position-y: -185px;
+    background-position-y: -138px;
     background-size: cover;
+    height: 75vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -106,7 +108,7 @@ header nav a:active{
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin: 40px 0;
+    margin: 90px 0;
 }
 
 .materia{
@@ -166,7 +168,7 @@ header nav a:active{
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    width: 430px;
+    max-width: 500px;
 }
 
 .time-lado h1{
@@ -177,6 +179,20 @@ header nav a:active{
     margin-top: 20px;
     font-size: 24px;
     font-weight: lighter;
+}
+
+#fotos-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.fotos{
+    height: 250px;
+    width: 250px;
 }
 
 .hide-up{
