@@ -86,12 +86,12 @@ header nav a:active{
 }
 
 #fru-fru{
-    padding: 140px 160px 120px;
+    padding: 120px 160px 120px;
     background-image: url(img/Group\ 2.png);
     background-repeat: no-repeat;
-    background-position-y: -138px;
+    background-position-y: -120px;
     background-size: cover;
-    height: 75vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -147,9 +147,10 @@ header nav a:active{
     align-items: center;
     gap: 50px;
     max-width: 100%;
-    padding: 50px;
+    height: 100vh;
     background-color: #083040;
     color: white;
+    padding: 120px 0 0;
 }
 
 #title-time{
@@ -161,14 +162,14 @@ header nav a:active{
     align-items: center;
     justify-content: center;
     gap: 100px;
-    padding: 0 160px;
+    padding: 0 100px;
 }
 
 .time-lado{
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    max-width: 500px;
+    width: 500px;
 }
 
 .time-lado h1{
@@ -191,8 +192,8 @@ header nav a:active{
 }
 
 .fotos{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 
 .hide-up{
